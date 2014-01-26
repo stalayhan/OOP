@@ -1,0 +1,51 @@
+
+Test 1: cat text.txt | ./sgrep -n Insurance
+Result: 13: Insurance (SF-8), please Click Here
+
+----------------------------------------
+Test 2: cat text.txt | ./sgrep -n O
+Result: 1: NOAA.gov and most associated web sites
+	4: Only web sites necessary to protect lives
+	11: NOAA Federal Employees: For access to the
+
+----------------------------------------
+Test 3: cat text.txt | ./sgrep web
+Result: NOAA.gov and most associated web sites
+	Only web sites necessary to protect lives
+
+----------------------------------------
+Test 4: cat text.txt | ./sgrep -i -n See
+Result: 7: See Weather.gov for critical weather
+
+----------------------------------------
+Test 5: cat text.txt | ./sgrep Due -n
+Result: 
+SYNOPSIS
+	sgrep [OPTIONS] [PATTERN]
+	Example useage:
+		sgrep -i -n [PATTERN]
+OPTIONS
+	-i, --ignore-case
+		 Ignore case distinctions in both the PATTERN and the input
+		 files.
+	-n, --line-number
+		 Prefix each line of output with the 1-based line number within
+		 its input file.
+
+
+Sample Text below here:
+----------------------------------------
+Due to the Federal government shutdown,
+NOAA.gov and most associated web sites
+are unavailable.
+
+Only web sites necessary to protect lives
+and property will be maintained.
+
+See Weather.gov for critical weather
+information or contact USA.gov for more
+information about the shutdown.
+
+NOAA Federal Employees: For access to the
+Notice to Federal Employees About Unemployment
+Insurance (SF-8), please Click Here
