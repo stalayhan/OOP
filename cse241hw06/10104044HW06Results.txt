@@ -1,0 +1,8 @@
+----------------------------------
+First Paranthesis Software Class alive object numbers : 3
+Software Class alive object numbers : 2
+Software Class alive object numbers : 4
+Software Class alive object numbers : 7
+ApplicationSoftware Class alive object numbers : 3
+ComputerProgrammingTools Class alive object numbers : 7
+-----------------------------------

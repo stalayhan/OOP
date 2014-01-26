@@ -1,0 +1,73 @@
+Family Informations
+Father: 
+First name: Selivstr
+Last name: Tolstoy
+Gender: Male
+Year of birth: 1612
+Mother: 
+First name: Sophia
+Last name: Tolstoy
+Gender: Female
+Year of birth: 1844
+
+		Family Informations
+Father: 
+First name: Selivstr
+Last name: Tolstoy
+Gender: Male
+Year of birth: 1612
+Mother: 
+First name: Sophia
+Last name: Tolstoy
+Gender: Female
+Year of birth: 1844
+Child0:
+First name: Ivan
+Last name: Tolstoy
+Gender: Male
+Year of birth: 1644
+
+		Family Informations
+Father: 
+First name: Feofil
+Last name: Klitscko
+Gender: Male
+Year of birth: 1612
+Mother: 
+First name: Tatiana
+Last name: Klitscko
+Gender: Female
+Year of birth: 1844
+
+		Family Informations
+Father: 
+First name: Feofil
+Last name: Klitscko
+Gender: Male
+Year of birth: 1612
+Mother: 
+First name: Tatiana
+Last name: Klitscko
+Gender: Female
+Year of birth: 1844
+Child0:
+First name: Ivan
+Last name: Tolstoy
+Gender: Male
+Year of birth: 1644
+Child1:
+First name: Lev
+Last name: Klitscko
+Gender: Male
+Year of birth: 1689
+Child2:
+First name: Aleksei
+Last name: Klitscko
+Gender: Male
+Year of birth: 1689
+
+
+
+Call compareTo() method.
+Two Families are different.
+Total number of families created so far: 2
